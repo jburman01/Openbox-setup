@@ -1,0 +1,13 @@
+#enable xcompmgr on start
+tint2 &
+
+# Run nitrogen on start
+
+nitrogen --restore &
+
+# run Tint2 on start
+(sleep 10 && xcompmgr) &
+
+#fix screen layout
+/home/local/ANT/jburman/.screenlayout/Left2right.sh &
+
